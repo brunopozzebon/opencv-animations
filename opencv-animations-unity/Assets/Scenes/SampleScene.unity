@@ -4135,6 +4135,9 @@ MonoBehaviour:
   lineRendererArmRight: {fileID: 2141501795}
   lineRendererArmLeft: {fileID: 675869486}
   lineRendererTrunk: {fileID: 1986111723}
+  animation1Button: {fileID: 1941595080}
+  animation2Button: {fileID: 555199845}
+  animation3Button: {fileID: 1760365514}
 --- !u!1 &344508549
 GameObject:
   m_ObjectHideFlags: 0
