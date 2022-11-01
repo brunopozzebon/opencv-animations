@@ -1,7 +1,7 @@
 # OpenCV Animations
 Trabalho realizado na disciplina de animação computadorizada, pela professora Rossana Queiroz. Unisinos/RS.
 
-![Imagem de capa](cover.png)
+![Imagem de capa](cover.PNG)
 
 ## Objetivo
 
