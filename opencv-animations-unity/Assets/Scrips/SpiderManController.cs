@@ -62,10 +62,11 @@ public class SpiderManController : MonoBehaviour
         StartCoroutine(animationCourotine());
     }
 
-    private void setArmature(int index)
+    private void setArmature(int videoIndex)
     {
+        index = 0;
         canRead = false;
-        string filename = "animation_" + (index + 1)+".json";
+        string filename = "animation_" + (videoIndex + 1)+".json";
         string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
         string fullName = Path.Combine(desktopPath, filename);
         using (StreamReader steamReader = new StreamReader(fullName))
